@@ -1,4 +1,4 @@
-package PracticeQuestion;
+package PQDate8122025;
   //parent class
 public class Animal {
     String type = "Animal";

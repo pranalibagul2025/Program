@@ -1,4 +1,4 @@
- package PracticeQuestion;
+ package PQDate8122025;
 
 public class StudentCV
 {

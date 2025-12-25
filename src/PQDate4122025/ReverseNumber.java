@@ -1,4 +1,4 @@
-package PracticeQuestion;
+package PQDate4122025;
 
 public class ReverseNumber {
     public static void main (String[] agrs)

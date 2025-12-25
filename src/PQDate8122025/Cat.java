@@ -1,4 +1,4 @@
-package PracticeQuestion;
+package PQDate8122025;
 
 public class Cat {        // Dog inherits eat() from cat.
     void eat()

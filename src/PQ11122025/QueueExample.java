@@ -12,6 +12,7 @@ public class QueueExample {
         queue.add(81);
         queue.add(12);
         queue.add(67);
+
         System.out.println("Queue after editing:"+queue);
         int removed = queue.remove();
         System.out.println("Removed element:"+removed);

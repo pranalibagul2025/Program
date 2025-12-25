@@ -1,4 +1,4 @@
-package PracticeQuestion;
+package PQDate8122025;
 
 public class BankAccount {
     String AccountHolder;
@@ -19,7 +19,7 @@ public class BankAccount {
         if (amount <= balance)
         {
             balance= balance- amount;
-                    System.out.println("withdraw Successfuly.");
+                    System.out.println("withdraw Successfuly."+amount);
         } else {
             System.out.println("Insufficient balance!");
         }
@@ -27,7 +27,7 @@ public class BankAccount {
 
     void display() //shows account holder & balance
     {
-        System.out.println("Account Holder:"+AccountHolder);
+//        System.out.println("Account Holder:"+AccountHolder);
         System.out.println("Current Balance:"+balance);
     }
 
@@ -35,8 +35,8 @@ public class BankAccount {
     {
         BankAccount acc = new BankAccount("pranali",5000);
         acc.display();
-        acc.deposit(1000);
-        acc.withdraw(3000);
+        acc.deposit(4000);
+        acc.withdraw(2000);
 
         acc.display(); // Simple and clear for inheritance or OOP practice
     }
